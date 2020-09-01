@@ -3,22 +3,22 @@
     "path": "C:/Users/Homerito/Desktop/R Files/R/Coursera/Data Science Specialization/05 -Reproducible Research/week2/general_script_markdown.Rmd",
     "project_path": "general_script_markdown.Rmd",
     "type": "r_markdown",
-    "hash": "816105898",
+    "hash": "3160127920",
     "contents": "",
     "dirty": false,
     "created": 1598903564475.0,
     "source_on_save": false,
     "relative_order": 1,
     "properties": {
-        "cursorPosition": "60,0",
-        "scrollLine": "36"
+        "cursorPosition": "193,27",
+        "scrollLine": "172"
     },
     "folds": "",
-    "lastKnownWriteTime": 1598907834,
+    "lastKnownWriteTime": 1598989426,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1598907834263,
+    "last_content_update": 1598989426970,
     "read_only": false,
     "read_only_alternatives": []
 }

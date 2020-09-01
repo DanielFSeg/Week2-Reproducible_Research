@@ -1,0 +1,8 @@
+"0","daily_pattern <- activity %>%    # Daily steps pattern
+  
+  group_by(interval) %>%
+  
+  summarise(mean_steps = mean(steps, na.rm = TRUE))
+"
+"2","`summarise()` ungrouping output (override with `.groups` argument)
+"

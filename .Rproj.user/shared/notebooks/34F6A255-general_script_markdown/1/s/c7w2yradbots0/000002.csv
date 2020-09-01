@@ -1,9 +1,0 @@
-"0","activity <- read_csv(""data/activity.csv"", na = ""NA"")
-"
-"2","Parsed with column specification:
-cols(
-  steps = [32mcol_double()[39m,
-  date = [34mcol_date(format = """")[39m,
-  interval = [32mcol_double()[39m
-)
-"

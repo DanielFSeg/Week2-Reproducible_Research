@@ -1,4 +1,4 @@
-"0","```{r libraries, echo = TRUE, results = 'hold'}
+"0","```{r libraries, echo = TRUE, results = 'hide'}
 "
 "2","Erro: tentativa de usar um nome de variável com comprimento zero
 "

@@ -1,0 +1,26 @@
+"0","na_imputed %>%
+  
+  group_by(is.weekend, interval) %>%
+  
+  summarise(means = mean(steps)) %>%
+  
+  ggplot() +
+  
+  scale_x_continuous(expand = c(0,0), n.breaks = 10) +
+
+  geom_line(aes(interval, means), size = .8, color = ""blue"") + 
+  
+  facet_grid(is.weekend ~ .) +
+  
+  labs(title = ""Steps patterns weekdays / weekends"",
+     subtitle = ""Mean of all intervals along a day"",
+     caption = ""by DFS"") +
+  
+  xlab(""5-min data collection interval"") +
+  
+  ylab(""Number of steps"") +
+  
+  theme_bw()
+"
+"2","`summarise()` regrouping output by 'is.weekend' (override with `.groups` argument)
+"

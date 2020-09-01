@@ -1,0 +1,4 @@
+"0","na_tot <- is.na(activity$steps)
+"
+"2","Erro: objeto 'activity' não encontrado
+"
