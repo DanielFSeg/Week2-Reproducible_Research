@@ -1,6 +1,6 @@
 ---
-title: "Reproducible Research: Peer Assessment 1"
-subtitle: "Subtitle"
+title: "R Mardown with step counting data"
+subtitle: "Reproducible Research: Peer Assessment 1 - week 2"
 author: "Daniel F Seg"
 output: 
   html_document:
