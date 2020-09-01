@@ -3,22 +3,22 @@
     "path": "C:/Users/Homerito/Desktop/R Files/R/Coursera/Data Science Specialization/05 -Reproducible Research/week2/PA1_template.Rmd",
     "project_path": "PA1_template.Rmd",
     "type": "r_markdown",
-    "hash": "2386216956",
+    "hash": "2618946759",
     "contents": "",
     "dirty": false,
     "created": 1598989756708.0,
     "source_on_save": false,
     "relative_order": 2,
     "properties": {
-        "cursorPosition": "2,60",
-        "scrollLine": "0"
+        "cursorPosition": "193,0",
+        "scrollLine": "190"
     },
     "folds": "",
-    "lastKnownWriteTime": 1598989922,
+    "lastKnownWriteTime": 1598990810,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1598989922922,
+    "last_content_update": 1598990810539,
     "read_only": false,
     "read_only_alternatives": []
 }

@@ -213,7 +213,36 @@ na_imputed <- activity %>%
   mutate(steps = as.integer(mean(activity$steps, na.rm = TRUE))) %>%
   
   rbind(., activity %>% filter(!is.na(steps)))
+
+na_imputed %>%
+  
+ group_by(date, weekday, is.weekend) %>%
+
+    summarise(sum = sum(steps, na.rm = TRUE), 
+              mean = mean(steps, na.rm = TRUE)) %>%
+  
+  ggplot() +
+  
+  geom_histogram(aes(sum), bins = 15, fill = "lightblue", color = "black") + 
+  
+  geom_hline(yintercept = 0, size = 1.5) +
+  
+  labs(title = "Histogram of steps per day",
+       subtitle = "Imputed data",
+       caption = "by DFS") +
+  
+  xlab("Steps per day") +
+  
+  ylab("Frequency") +
+  
+  theme_bw()
 ```
+
+```
+## `summarise()` regrouping output by 'date', 'weekday' (override with `.groups` argument)
+```
+
+![](PA1_template_files/figure-html/impute_na-1.png)<!-- -->
 
 ### **Are there differences in activity patterns between weekdays and weekends?**
 
